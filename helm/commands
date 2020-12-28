@@ -7,6 +7,8 @@ helm uninstall p1-plus-hines
 helm install pf-advanced-hines pingidentity/ping-devops -f pf-advanced-hines.yaml
 helm uninstall pf-advanced-hines
 
+https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pingfederate/app?service=finishsso
+
 
 git add .
 git commit -m "Add existing file"
