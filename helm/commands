@@ -4,6 +4,9 @@ helm upgrade --install p1-plus-hines pingidentity/ping-devops -f p1-plus-pf.yaml
 
 helm uninstall p1-plus-hines
 
+helm install pf-advanced-hines pingidentity/ping-devops -f pf-advanced-hines.yaml
+helm uninstall pf-advanced-hines
+
 
 git add .
 git commit -m "Add existing file"
