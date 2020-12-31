@@ -441,15 +441,15 @@
                     "fields": [
                       {
                         "name": "Username",
-                        "value": ""
+                        "value": "user.1@anycompanyonline.com"
                       },
                       {
                         "name": "Password",
-                        "encryptedValue": ""
+                        "Value": "2Federate"
                       },
                       {
                         "name": "Confirm Password",
-                        "encryptedValue": ""
+                        "encryptedValue": "2Federate"
                       },
                       {
                         "name": "Relax Password Requirements",
