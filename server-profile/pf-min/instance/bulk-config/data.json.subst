@@ -397,11 +397,11 @@
                       },
                       {
                         "name": "Password",
-                        "encryptedValue": "OBF:JWE:eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoieGl5Wlc2aFFWYSIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..RpssG6YKFsYFPEcnyKgBFg.sgmVOzNV2Fc4bWOxZOjHVlZKb_knZ3i6glN733KgbyXoB_FN1SeRq2sQLXf4Pbnlmb7JmwvSBMo-L64okn6wzQ.hjwHn9lfr9rABmRkdppf1g"
+                        "encryptedValue": "2Federate"
                       },
                       {
                         "name": "Confirm Password",
-                        "encryptedValue": "OBF:JWE:eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoieGl5Wlc2aFFWYSIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..tYQIofJWpAww97WeWusG3w.Hu8gAOX73P7ELlrRs6dSOvuBsj_c1GAi_7me0uPIvRtIWNPm5uBZYnbbo8L9DiemqF7g-mL_qgV2r1VHtNwWhQ.EkN6NmvSaWVOfah8dnXGuw"
+                        "encryptedValue": "2Federate"
                       },
                       {
                         "name": "Relax Password Requirements",
