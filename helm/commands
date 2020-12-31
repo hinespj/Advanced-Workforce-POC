@@ -1,15 +1,22 @@
 helm install p1-plus-hines pingidentity/ping-devops -f p1-plus-pf.yaml
-
 helm upgrade --install p1-plus-hines pingidentity/ping-devops -f p1-plus-pf.yaml
-
 helm uninstall p1-plus-hines
+
 
 helm install pf-advanced-hines pingidentity/ping-devops -f pf-advanced-hines.yaml
 helm uninstall pf-advanced-hines
-
 https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pingfederate/app?service=finishsso
 
 
+helm install pf-advanced2-hines pingidentity/ping-devops -f pf-advanced2-hines.yaml
+helm uninstall pf-advanced2-hines
+https://pingfederate-admin-pf-advanced2-hines.ping-devops.com:443/pingfederate/app?service=finishsso
+
+
+
+${PF_BASE_URL}
+${PF_ADMIN_PUBLIC_HOSTNAME}
+
 git add .
-git commit -m "Add existing file"
+git commit -m "Add new files"
 git push
