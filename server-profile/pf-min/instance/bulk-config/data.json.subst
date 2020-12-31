@@ -397,11 +397,11 @@
                       },
                       {
                         "name": "Password",
-                        "encryptedValue": "2Federate"
+                        "Value": "2Federate"
                       },
                       {
                         "name": "Confirm Password",
-                        "encryptedValue": "2Federate"
+                        "Value": "2Federate"
                       },
                       {
                         "name": "Relax Password Requirements",
