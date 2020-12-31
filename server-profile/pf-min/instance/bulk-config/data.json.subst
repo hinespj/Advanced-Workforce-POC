@@ -374,7 +374,59 @@
       ]
     },
     {
-    "resourceType": "/oauth/accessTokenManagers/settings",
+      "resourceType": "/passwordCredentialValidators",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "id": "PingOneSimplePCV",
+          "name": "PingOne Simple PCV",
+          "pluginDescriptorRef": {
+            "id": "org.sourceid.saml20.domain.SimpleUsernamePasswordCredentialValidator",
+            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/passwordCredentialValidators/descriptors/org.sourceid.saml20.domain.SimpleUsernamePasswordCredentialValidator"
+          },
+          "configuration": {
+            "tables": [
+              {
+                "name": "Users",
+                "rows": [
+                  {
+                    "fields": [
+                      {
+                        "name": "Username",
+                        "value": "user.1@anycompanyonline.com"
+                      },
+                      {
+                        "name": "Password",
+                        "password": "${PING_IDENTITY_PASSWORD}"
+                      },
+                      {
+                        "name": "Confirm Password",
+                        "password": "${PING_IDENTITY_PASSWORD}"
+                      },
+                      {
+                        "name": "Relax Password Requirements",
+                        "value": "true"
+                      }
+                    ],
+                    "defaultRow": false
+                  }
+                ]
+              }
+            ],
+            "fields": []
+          },
+          "attributeContract": {
+            "coreAttributes": [
+              {
+                "name": "username"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "/oauth/accessTokenManagers/settings",
       "operationType": "SAVE",
       "items": [
         {}
