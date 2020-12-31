@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "pfVersion": "10.1.2.0"
+    "pfVersion": "10.2.0.13"
   },
   "operations": [
     {
@@ -340,7 +340,41 @@
       ]
     },
     {
-      "resourceType": "/oauth/accessTokenManagers/settings",
+      "resourceType": "/authenticationPolicyContracts",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "id": "8Y2LeoI7x3vf12Or",
+          "name": "SingleFactor",
+          "coreAttributes": [
+            {
+              "name": "subject"
+            }
+          ],
+          "extendedAttributes": [
+            {
+              "name": "email"
+            }
+          ]
+        },
+        {
+          "id": "ScrVidy2FZJZr3vm",
+          "name": "MultiFactor",
+          "coreAttributes": [
+            {
+              "name": "subject"
+            }
+          ],
+          "extendedAttributes": [
+            {
+              "name": "email"
+            }
+          ]
+        }
+      ]
+    },      
+    { 
+    "resourceType": "/oauth/accessTokenManagers/settings",
       "operationType": "SAVE",
       "items": [
         {}
@@ -403,6 +437,7 @@
         {
           "enableSessions": false,
           "persistentSessions": false,
+          "hashUniqueUserKeyAttribute": false,
           "idleTimeoutMins": 60,
           "idleTimeoutDisplayUnit": "MINUTES",
           "maxTimeoutMins": 480,
@@ -456,7 +491,10 @@
           "atmIdForOAuthGrantManagement": "",
           "scopeForOAuthGrantManagement": "",
           "allowedOrigins": [],
-          "trackUserSessionsForLogout": false
+          "trackUserSessionsForLogout": false,
+          "parReferenceTimeout": 60,
+          "parReferenceLength": 24,
+          "parStatus": "ENABLED"
         }
       ]
     },
