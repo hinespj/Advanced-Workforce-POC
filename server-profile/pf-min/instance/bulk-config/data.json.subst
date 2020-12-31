@@ -340,6 +340,26 @@
       ]
     },
     {
+      "resourceType": "/pingOneConnections",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "id": "FGs7Qrys7dA8nIwdsBUQrS",
+          "name": "internal_patrickhines_95024216",
+          "active": true,
+          "encryptedCredential": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoieGl5Wlc2aFFWYSIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..-9gxNkhdGEG-SXh0xOtvAQ.M0YZkc3ZLPxeNp9vbfWg-FWN6idxQv37AzW7px28NyGM9bm0RFjmeU-KEGbAoHulxZfXBbmIH0GkLHwD0An_ovZSR7ZFFZbdmImA5EJjhuIczS8cehK_l9l_126GgqD4KkX85s5UJnyA6OU4kZ0YXpp5DbBv3hPcX4HZSJZeQ1edkrb57Kpw4BlxHqbwjI0BSXMXtzeES6WmiK0efmPn_8p7oPMY0wfr1QeVPQGLME-JFSYe2_l8FjCwAYdVioUs9_3lOBVa2EuXkqzue8RedgYp2AsScWCu7ZsyOIHosGSYQyqNu1AxVyPaXWRCoy_etJrvCsFYmhS-HmJ_XPdIpXCpn2tRIx3W5EkjdqKatXgmJ5WnwrYwOy_KM8VXE7tIgD3AcVBJp5avwacNN3A9_9QFe5DZaKbODe6CHBox7g1B7As2n5lHxMD3aBsSirk1CEH-jIHtcHRiLYXPNFZL5FWAHKP90Mht3UGPY4_WK2yXHS8ab-UcdgvaWp2yguTdTx_7ATC4kTO6qPDCJopjamYkIboymMYQ-y21I7KD6s7ygGVnl-ayPm5e89qKKFBHlRV3LuZqThDQXXpYMAArcJ0cIWkXZw0fhBLq4AQ9Spzn0d85wnRUwtx1G-KLcSXYPv5jQcdGfoj8232fzQlHhiQk13uIBZfwUs3aem-KYZnycENblo6mV1lPMv-Uy-_ajES1Ro0YWVfTFi-soD-e-MvpOuT_uqXD_hDm4AGni8Ne4TYf9yX8LTh9bna_KLll-zvOFWJ2-HLnzl0gJyAOIw89HzhmCC-Gbw54COS6KrtwdL289JHzFT_aYAHwOvPDkjzEjDrS6xS7V7-BYdJqQAlZ6pulFUfxoBVr6UczIooz6CH4e6PbzCNq8du_p3glnSeW42qTNAQTUikTu_1-is_o90KMD9aDaz-zxJHXhJeT0Sc9rsU9woUbzQJjC_pWSWJ9IEU-z1rHhkTdiYz_xSvEAaWF1_PZBW6XCZ4tLivJJIHs84lvRq9lZeiAgLTn9aFryOZB407f9KtjzoyKyCbjHhoCG_RU0YFn-z0pRhk0dCJsot0-i3sy9KbQqHgNQfccdEQTuIUp-iDO4sGKmSjDSUzJh7j8IFxwOlLROp8zdAfTT1s_Td2Y02Y2qIKNg7CuKswPwsWknVN8CgcXefbzLyjyiLtCOSUJXObJxoA_nY1BfZjCemRkRI3XfLpyOWf2_kg7LVoOfQ2Ke9YwfyIQ8iIk0FBvbbi8cci6nicFbaX0eIhP0xnHbGmbKaEe3pPc84ObzW7fwcwUSu7SKcsyVIKq_bQD-3BKBferXklwvnpcF6isl3vPMNeq45MSS7I2WvqN7di5L8PT51nFpEwUl862GLe8WgrzXfUuzjshilasMx2NpBqDbyfk0mgmxHQyZT5TQ4DiulwacVqVNjEiTJPHyXd_Ytx62mCMhxn2eaUMtoycKxPYbs2jzr2Dz7qPX16Qo54S-6M6tnCufN9HUhbny23i345UGSqJU16dpJRTzJU4NTeUrjgDPUjGlj70P-OwxwtaJytod_QylbG49r09_Hj1fAiPL5BqKp-d49Fvm1cyDrXG8Yw8mBFNpDd7CWizNEkubRgIs1bisky3ff_Q4Emf58IZorZuTTa84UwFZ5zJz4cf6BdlrS60.FFxZBtOqtT0RXiAd3thq2A",
+          "creationDate": "2020-12-31T18:18:06.280Z",
+          "credentialId": "ae1b2622-0d3e-478f-ba16-159387463f41",
+          "pingOneConnectionId": "d868e789-4bad-4228-b47b-4c6f287778eb",
+          "environmentId": "34feefc2-fa27-458a-b5c4-d8557862042b",
+          "organizationName": "internal_patrickhines_95024216",
+          "region": "North America",
+          "pingOneManagementApiEndpoint": "https://api.pingone.com",
+          "pingOneAuthenticationApiEndpoint": "https://auth.pingone.com"
+        }
+      ]
+    },
+    {
       "resourceType": "/authenticationPolicyContracts",
       "operationType": "SAVE",
       "items": [
@@ -374,58 +394,6 @@
       ]
     },
     {
-      "resourceType": "/passwordCredentialValidators",
-      "operationType": "SAVE",
-      "items": [
-        {
-          "id": "PingOneSimplePCV",
-          "name": "PingOne Simple PCV",
-          "pluginDescriptorRef": {
-            "id": "org.sourceid.saml20.domain.SimpleUsernamePasswordCredentialValidator",
-            "location": "https://localhost:9999/pf-admin-api/v1/passwordCredentialValidators/descriptors/org.sourceid.saml20.domain.SimpleUsernamePasswordCredentialValidator"
-          },
-          "configuration": {
-            "tables": [
-              {
-                "name": "Users",
-                "rows": [
-                  {
-                    "fields": [
-                      {
-                        "name": "Username",
-                        "value": "user.1@anycompanyonline.com"
-                      },
-                      {
-                        "name": "Password",
-                        "password": "${PING_IDENTITY_PASSWORD}"
-                      },
-                      {
-                        "name": "Confirm Password",
-                        "password": "${PING_IDENTITY_PASSWORD}"
-                      },
-                      {
-                        "name": "Relax Password Requirements",
-                        "value": "true"
-                      }
-                    ],
-                    "defaultRow": false
-                  }
-                ]
-              }
-            ],
-            "fields": []
-          },
-          "attributeContract": {
-            "coreAttributes": [
-              {
-                "name": "username"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
       "resourceType": "/oauth/accessTokenManagers/settings",
       "operationType": "SAVE",
       "items": [
@@ -439,6 +407,114 @@
         {
           "forceTcp": false,
           "debugLogOutput": false
+        }
+      ]
+    },
+    {
+          "id": "PingOneRisk",
+          "name": "PingOneRisk",
+          "pluginDescriptorRef": {
+            "id": "com.pingidentity.adapters.pingone.risk.PingOneRiskManagementIdpAdapter",
+            "location": "https://localhost:9999/pf-admin-api/v1/idp/adapters/descriptors/com.pingidentity.adapters.pingone.risk.PingOneRiskManagementIdpAdapter"
+          },
+          "configuration": {
+            "tables": [
+              {
+                "name": "Additional User Attributes (optional)",
+                "rows": []
+              },
+              {
+                "name": "PingOne Risk API Response Mappings (optional)",
+                "rows": []
+              }
+            ],
+            "fields": [
+              {
+                "name": "PingOne Environment",
+                "value": "FGs7Qrys7dA8nIwdsBUQrS|34feefc2-fa27-458a-b5c4-d8557862042b"
+              },
+              {
+                "name": "Risk Policy ID",
+                "value": "33192c16-3134-094c-073b-6ee71fae08de"
+              },
+              {
+                "name": "Include Device Profile",
+                "value": "true"
+              },
+              {
+                "name": "Device Profiling Method",
+                "value": "Captured by this adapter"
+              },
+              {
+                "name": "Device Profiling Timeout",
+                "value": "5000"
+              },
+              {
+                "name": "Cookie Name Prefix",
+                "value": "pingone.risk.device.profile"
+              },
+              {
+                "name": "Failure Mode",
+                "value": "Continue with fallback policy decision"
+              },
+              {
+                "name": "Fallback Policy Decision Value",
+                "value": "MEDIUM"
+              },
+              {
+                "name": "API Request Timeout",
+                "value": "2000"
+              },
+              {
+                "name": "Proxy Settings",
+                "value": "System Defaults"
+              },
+              {
+                "name": "Custom Proxy Host",
+                "value": ""
+              },
+              {
+                "name": "Custom Proxy Port",
+                "value": ""
+              }
+            ]
+          },
+          "attributeContract": {
+            "coreAttributes": [
+              {
+                "name": "riskLevel",
+                "masked": false,
+                "pseudonym": false
+              },
+              {
+                "name": "riskValue",
+                "masked": false,
+                "pseudonym": true
+              }
+            ],
+            "extendedAttributes": [],
+            "maskOgnlValues": false
+          },
+          "attributeMapping": {
+            "attributeSources": [],
+            "attributeContractFulfillment": {
+              "riskLevel": {
+                "source": {
+                  "type": "ADAPTER"
+                },
+                "value": "riskLevel"
+              },
+              "riskValue": {
+                "source": {
+                  "type": "ADAPTER"
+                },
+                "value": "riskValue"
+              }
+            },
+            "issuanceCriteria": {
+              "conditionalCriteria": []
+            }
+          }
         }
       ]
     },
