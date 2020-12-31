@@ -11,7 +11,7 @@
         {
           "id": "AdminConsoleHostname",
           "type": "STRING",
-          "stringValue": "${PF_ADMIN_PUBLIC_HOSTNAME}"
+          "stringValue": "pingfederate-admin-pf-advanced-hines.ping-devops.com"
         }
       ]
     },
@@ -184,7 +184,7 @@
       "operationType": "SAVE",
       "items": [
         {
-          "licenseAgreementUrl": "https://localhost:9999/pf-admin-api/license-agreement",
+          "licenseAgreementUrl": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/license-agreement",
           "accepted": true
         }
       ]
@@ -207,24 +207,50 @@
         {
           "runtimeServerCertRef": {
             "id": "vtcm75en83g6v1r87ytm7lihi",
-            "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
           },
           "adminConsoleCertRef": {
             "id": "vtcm75en83g6v1r87ytm7lihi",
-            "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
           },
           "activeRuntimeServerCerts": [
             {
               "id": "vtcm75en83g6v1r87ytm7lihi",
-              "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+              "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
             }
           ],
           "activeAdminConsoleCerts": [
             {
               "id": "vtcm75en83g6v1r87ytm7lihi",
-              "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+              "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
             }
           ]
+        }
+      ]
+    },
+    {
+      "resourceType": "/keyPairs/signing",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "id": "w9xvjdcubhw1y8jrbqsulygc4",
+          "fileData": "MIIJbwIBAzCCCSgGCSqGSIb3DQEHAaCCCRkEggkVMIIJETCCBWUGCSqGSIb3DQEHAaCCBVYEggVSMIIFTjCCBUoGCyqGSIb3DQEMCgECoIIE-zCCBPcwKQYKKoZIhvcNAQwBAzAbBBQJr8Q2s2vKlG25hM8RfHS03P502wIDAMNQBIIEyH0l26DF5RTdPIg-ZcdxhOHIDgnD9qLptraZS5uvBFt25oL0X0uYcqpr-dFxUDBdPMSn9LYWR37u3NflZkIzQzfW1hmyIE1S9udQGtoTJnKkx8mx55P0ZZ2wsyFbMQsb6svY8nRQCbX97i1O0U4hty9lLALR2wB12HlNFqHBhxeQKFbMJbzn6K88nHbMIRwxtuLoVFWBubLqz3vxCZtp3IrwgcvYchZs_L9RerA_QOsBEsrQuCdqwaTnri10zIHlhgnHBRQiNlO3aWGHK3_iVqCXJVDRFvMNsiOXOBEWeO2m7CT54I6F9fnhfElgMHdXIUP-zWR0W4wHVSNgYmmXu-0pdaSo2TfwOpiuFy3KjNNmIBEtSvQD14TFT_nxABUTKoCzHzJM8oSZBK9lWjt0KFWhHcgP1bMRQqJuaJ5yqmTBGFQ1eR2hPdR6Ahx83XOibUztbtwEvn6gDxqWNCllvfHG4P9zISkvmBfQBWzqHnzaGaC0S91X2YOPQZfisebvgZyl09oxFZ9NXjljCqP2r5Kb0Jw_KKS8azg6IiKz22I6bDdC6fgcnuj11oUMrdy8lYHOvVqe9xs8jKI2rHxWFPraugCv5zaDEVl2UnvPt-bxK7JgWl8sQEhUym9GTjQmgIs69uLIt96Hnu2kvMlPBIWn1LsfXLr-or7EyfH6cwifQhoJYsQCfScm4RWU4SELvGCFWjyf5dODjn2HUrcRetQATq4eZ5aqQMDv3MKjnQHW6o6x15dy-3dELee_qyCNRp_5IfW4dS1AsqSXmwq09DyaYd9KxX8oHC36xqphhudXju06Hyu-fn863fiR0LE0inL4asgb1cYd2e1yl4bq2Y2lfq7nyzozYPw6heI2BdyxgzH8WGk3qHdg2_EkD_Bym-BUtnjk2MNoRJEnCshrTU35Lk03ZIqTLxeNc_HR4y2vDQC-bUOeIy7L2YqB4rEZySNtidMCJBCeDP_sROaQLwqNMvw2biyy7qNI2SBZp_4NkrxWmLMbGT3LyVcOep-Gc_zsGgT-4eNFdJ8UYynrJup-zSZ2vSbp9KFL1HlENXAlWEmU_EIOJhJ2XjTB8fyFm1At8ckxfoPTiADG4b-98xUI64fMzO9Z0foo-XMQ0160Z60PbEE6JTLX8ojc99egBSOGD9Faa0x1CLdbbbn7hpy3RfrMldsgyvmRzNJVFAx7LZdMhnozWWk9694GLh91hVmdS5g9E4oH1ePMyy0NoMIoxWSpNBA53HGvzkFsRYB3_1FgWCDwZXVWRwczsXRBBxpy41fE5uEtAbuYWz9DGIvwmSy9GusdF4xg4Op2I7jt2vWl6v8k_OWOYl4_oifV_QJHlMDB28coFJzJZSaKh_O8r4BM_wMxYazO4rT2Y2dRgznkvG48fesA3iHANlBQ67qfnwt1s8wZ6Zph_hnlXEURPBk3KY8labTOgrW-Txq47pBFBfPbk4GYBWGYzxW4P_ipTDgF47JhNlXtT-VTs_qOJZUq_yixx-FtwhDH1u8i2MEmJboK0Zt1jpXqHpTTfqn2AeHw43SZWHpo1u1847uPt7hSbv2ktOLBS5LnQUpRxFxwXhPArmuyO-vofRs-2q1L8_j9I58H87lvFzSezsx9gHb6sFDt6DE8MBcGCSqGSIb3DQEJFDEKHggAcABpAG4AZzAhBgkqhkiG9w0BCRUxFAQSVGltZSAxNjA5MzY2NDM0MTQzMIIDpAYJKoZIhvcNAQcGoIIDlTCCA5ECAQAwggOKBgkqhkiG9w0BBwEwKQYKKoZIhvcNAQwBBjAbBBR8tkWpS9IakT8rUIModbVTiphcLAIDAMNQgIIDUMiyB6TWKH1HHp2zIKR2dbSVPdsg9Kobko2UdsEuJa0lhHaRB8FZkmeSExEwp5t7yDdZ-RWv9j6qIesI7945eMYrHCfVgrPZOtBGXLxYMxOF_5WXlT6UHey8oQZhn007dbD2dMzzXdrvmEKrqFLh8CWlG-PGaBrUkv4S3KBb7WlXg5mmbzXEyblD607CLfLLv5ZxRPraqQI3B1mn0Mn4a_ErEiLh-AgjgJaJE9EyBOMxZox5h1SksjxkTe_i4oTmfKxh7Xno7BkA7ZxZ9v610AAmEAOK7lK2gBzbWRuhsgGHUA6Q8qbSAU9NP8KGdkWm4fHrKzNQLb6xR5_X3Op-HnxAG0H_OfmoSihrFYF-TGGy1EjCAj2rkVVZbF2mvKpVpb85u-jEO-SeQWeMYwZoDngzLHMhJwpz3nZgseIKBYzzGuOiobh66xXIFiZrxYp18dhCNLgKEu0_BLWIiyDYoBxc6SVU0QAmF3M920GamxnPZPFrzvVvLBy_tH_Jb6cQZ8nFcZhL31KH0d7EjeLOpIJE4_YBmpY8tyy3eO0oPLpHc8wyVf1m4VtU0sfEl9VdiD_NCDBnrpVP7OPdJ63-SkPl7UucV_9BVCn7f9VRN4X_7zPjob5AHgj50omNevf_81-v2AOu2_Vs7peWcRfD4Y-0O5VcEqKelpV9QteGnCvQJhUOpqjDToT2tgagM_M16WX6O6lri4E34U1Efy8IG_RlpEjh2JScO8RDUvWZjY5RUIP6Xo7wdlwCkKvYQMPNzD1Ewofh-XEEkx8UWb3Qm41TICizJ6oDOuPhafLC120tIGJry6imugBs66PsaH8uuoSIWpDioq5d51KTWgskL-uytNRZlMoyt01QZ0ihoZ7WWB0WVzLsnic3FuRAC5fVRT08nestShItgeKsSsPE9HKR4zPOfTLtOAQq-8paeHcsRd-xnFOxmwerOtfYLtbpi3KKhvNWU-jxUdIW14sgpD5gLGfAzZXQCA-gRbsbPXyiN_eqToUjeI3ToSrWpgU4_hrDpzNKWKX4hxcmxRnTB72_oC1Le4o-03dvHjihJxS3OBRhAV4OEdfnIO-pAZeRlozF5sndbnleU4TkybXL8UEjaiU5Y7400DiLxk5QbcCxMD4wITAJBgUrDgMCGgUABBQp2CBx-xTKEl3dHjnttEmOwr5AIAQUPcG_tDUyQT81h-kA9FtPuuWn0JACAwGGoA==",
+          "encryptedPassword": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoieGl5Wlc2aFFWYSIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..DeA1Gyyczzaa0i_4qTlMZw.ShMhJVHGI_U0rbI7dUP0Mk1-lI9obd63LQoEiyGpNn4.oyGvrXrdKBdow44gqbQCpg"
+        }
+      ]
+    },
+    {
+      "resourceType": "/keyPairs/signing/rotationSettings",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "id": "w9xvjdcubhw1y8jrbqsulygc4",
+          "validDays": 1095,
+          "keySize": 2048,
+          "signatureAlgorithm": "SHA256withRSA",
+          "creationBufferDays": 90,
+          "activationBufferDays": 30,
+          "keyAlgorithm": "RSA"
         }
       ]
     },
@@ -234,6 +260,29 @@
       "items": [
         {
           "staticJwksEnabled": false
+        }
+      ]
+    },
+    {
+      "resourceType": "/dataStores",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "type": "JDBC",
+          "id": "ProvisionerDS",
+          "maskAttributeValues": false,
+          "connectionUrl": "jdbc:hsqldb:${pf.server.data.dir}${/}hypersonic${/}ProvisionerDefaultDB;hsqldb.lock_file=false",
+          "driverClass": "org.hsqldb.jdbcDriver",
+          "userName": "sa",
+          "encryptedPassword": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoieGl5Wlc2aFFWYSIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..DUo3hLEHp0ETBYuPsZkFaA.5RsxYELNTW4qOXTVnuIRKw.rvaGWm9arEfGUrDD6AldEQ",
+          "allowMultiValueAttributes": false,
+          "name": "ProvisionerDS (sa)",
+          "connectionUrlTags": [
+            {
+              "connectionUrl": "jdbc:hsqldb:${pf.server.data.dir}${/}hypersonic${/}ProvisionerDefaultDB;hsqldb.lock_file=false",
+              "defaultSource": true
+            }
+          ]
         }
       ]
     },
@@ -264,7 +313,7 @@
               "saml20Profile": {
                 "enable": true
               },
-              "enableOutboundProvisioning": false
+              "enableOutboundProvisioning": true
             },
             "spRole": {
               "enable": true,
@@ -282,7 +331,7 @@
             "enableIdpDiscovery": true
           },
           "federationInfo": {
-            "baseUrl": "${PF_BASE_URL}",
+            "baseUrl": "https://pingfederate-engine-pf-advanced-hines.ping-devops.com",
             "saml2EntityId": "evaluation",
             "saml1xIssuerId": "",
             "saml1xSourceId": "",
@@ -295,12 +344,41 @@
       ]
     },
     {
+      "resourceType": "/serverSettings/systemKeys",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "current": {
+            "creationDate": "2020-12-28T20:32:04.485Z",
+            "encryptedKeyData": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoieGl5Wlc2aFFWYSIsInZlcnNpb24iOiIxMC4yLjAuMTMiLCJ6aXAiOiJERUYifQ..J8lyOVHTkGmsS6ULRvLhbQ.ZlT9a5JXilc9-7z1Jr35DB2kKvWZvUrDwnQVvCQ71J5hNYusBAFkdhJQPk4_XbqZ.dnrbh2mh7HXQUpeLBSMxrw"
+          },
+          "pending": {
+            "creationDate": "2020-12-28T20:32:04.485Z",
+            "encryptedKeyData": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoieGl5Wlc2aFFWYSIsInZlcnNpb24iOiIxMC4yLjAuMTMiLCJ6aXAiOiJERUYifQ..mccev38zDsH3JiojoGDdbw.JxU28wd_bQEcs_8s7uSwKMBFJnY9Wm0fHvrB6GoCHjzilZXPNwCHKQwrKFPQfTrY.DRPc7_UPH12D72BSUqIE2g"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "/serverSettings/outboundProvisioning",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "dataStoreRef": {
+            "id": "ProvisionerDS",
+            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/dataStores/ProvisionerDS"
+          },
+          "synchronizationFrequency": 60
+        }
+      ]
+    },
+    {
       "resourceType": "/administrativeAccounts",
       "operationType": "SAVE",
       "items": [
         {
           "username": "Administrator",
-          "password": "${PING_IDENTITY_PASSWORD}",
+          "encryptedPassword": "OBF:JWE:eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoieGl5Wlc2aFFWYSIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..zxX40NjJEUqp_cz846ttyg.RrWFD9NnHtMK8Cl6kdeXMKkM0HNlUZNhqZs6bkJpa8Xs7j54UJtpPdafRqMKYMJKMm8YvyPt7f5KlxewDeYfRw.ywgLo5uJbY4mq191owfcUg",
           "description": "Initial administrator user.",
           "auditor": false,
           "active": true,
@@ -430,7 +508,7 @@
           "name": "PingOne Simple PCV",
           "pluginDescriptorRef": {
             "id": "org.sourceid.saml20.domain.SimpleUsernamePasswordCredentialValidator",
-            "location": "https://localhost:9999pf-admin-api/v1/passwordCredentialValidators/descriptors/org.sourceid.saml20.domain.SimpleUsernamePasswordCredentialValidator"
+            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/passwordCredentialValidators/descriptors/org.sourceid.saml20.domain.SimpleUsernamePasswordCredentialValidator"
           },
           "configuration": {
             "tables": [
@@ -445,11 +523,11 @@
                       },
                       {
                         "name": "Password",
-                        "Value": "2Federate"
+                        "encryptedValue": "OBF:JWE:eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoieGl5Wlc2aFFWYSIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..RpssG6YKFsYFPEcnyKgBFg.sgmVOzNV2Fc4bWOxZOjHVlZKb_knZ3i6glN733KgbyXoB_FN1SeRq2sQLXf4Pbnlmb7JmwvSBMo-L64okn6wzQ.hjwHn9lfr9rABmRkdppf1g"
                       },
                       {
                         "name": "Confirm Password",
-                        "Value": "2Federate"
+                        "encryptedValue": "OBF:JWE:eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoieGl5Wlc2aFFWYSIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..tYQIofJWpAww97WeWusG3w.Hu8gAOX73P7ELlrRs6dSOvuBsj_c1GAi_7me0uPIvRtIWNPm5uBZYnbbo8L9DiemqF7g-mL_qgV2r1VHtNwWhQ.EkN6NmvSaWVOfah8dnXGuw"
                       },
                       {
                         "name": "Relax Password Requirements",
@@ -499,7 +577,7 @@
           "name": "PingID",
           "pluginDescriptorRef": {
             "id": "com.pingidentity.adapters.pingid.PingIDAdapter",
-            "location": "https://localhost:9999/pf-admin-api/v1/idp/adapters/descriptors/com.pingidentity.adapters.pingid.PingIDAdapter"
+            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/idp/adapters/descriptors/com.pingidentity.adapters.pingid.PingIDAdapter"
           },
           "configuration": {
             "tables": [],
@@ -874,7 +952,7 @@
           "name": "PingOne HTML Form Adapter",
           "pluginDescriptorRef": {
             "id": "com.pingidentity.adapters.htmlform.idp.HtmlFormIdpAuthnAdapter",
-            "location": "https://localhost:9999/pf-admin-api/v1/idp/adapters/descriptors/com.pingidentity.adapters.htmlform.idp.HtmlFormIdpAuthnAdapter"
+            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/idp/adapters/descriptors/com.pingidentity.adapters.htmlform.idp.HtmlFormIdpAuthnAdapter"
           },
           "configuration": {
             "tables": [
@@ -1280,7 +1358,7 @@
             "signingSettings": {
               "signingKeyPairRef": {
                 "id": "w9xvjdcubhw1y8jrbqsulygc4",
-                "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/signing/w9xvjdcubhw1y8jrbqsulygc4"
+                "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/signing/w9xvjdcubhw1y8jrbqsulygc4"
               },
               "includeCertInSignature": false,
               "includeRawKeyInSignature": false,
@@ -1355,7 +1433,7 @@
                 },
                 "authenticationPolicyContractRef": {
                   "id": "ScrVidy2FZJZr3vm",
-                  "location": "https://localhost:9999/pf-admin-api/v1/authenticationPolicyContracts/ScrVidy2FZJZr3vm"
+                  "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/authenticationPolicyContracts/ScrVidy2FZJZr3vm"
                 },
                 "restrictVirtualEntityIds": false,
                 "restrictedVirtualEntityIds": [],
@@ -1434,7 +1512,7 @@
             "signingSettings": {
               "signingKeyPairRef": {
                 "id": "w9xvjdcubhw1y8jrbqsulygc4",
-                "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/signing/w9xvjdcubhw1y8jrbqsulygc4"
+                "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/signing/w9xvjdcubhw1y8jrbqsulygc4"
               },
               "includeCertInSignature": false,
               "includeRawKeyInSignature": false,
@@ -1509,7 +1587,7 @@
                 },
                 "authenticationPolicyContractRef": {
                   "id": "8Y2LeoI7x3vf12Or",
-                  "location": "https://localhost:9999/pf-admin-api/v1/authenticationPolicyContracts/8Y2LeoI7x3vf12Or"
+                  "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/authenticationPolicyContracts/8Y2LeoI7x3vf12Or"
                 },
                 "restrictVirtualEntityIds": false,
                 "restrictedVirtualEntityIds": [],
@@ -1678,7 +1756,7 @@
                     "type": "IDP_ADAPTER",
                     "sourceRef": {
                       "id": "PingOneHTMLFormAdapter",
-                      "location": "https://localhost:9999/pf-admin-api/v1/idp/adapters/PingOneHTMLFormAdapter"
+                      "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/idp/adapters/PingOneHTMLFormAdapter"
                     }
                   },
                   "inputUserIdMapping": {
@@ -1702,7 +1780,7 @@
                       "context": "Success",
                       "authenticationPolicyContractRef": {
                         "id": "8Y2LeoI7x3vf12Or",
-                        "location": "https://localhost:9999/pf-admin-api/v1/authenticationPolicyContracts/8Y2LeoI7x3vf12Or"
+                        "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/authenticationPolicyContracts/8Y2LeoI7x3vf12Or"
                       },
                       "attributeMapping": {
                         "attributeSources": [],
@@ -1741,7 +1819,7 @@
                     "type": "IDP_ADAPTER",
                     "sourceRef": {
                       "id": "PingOneHTMLFormAdapter",
-                      "location": "https://localhost:9999/pf-admin-api/v1/idp/adapters/PingOneHTMLFormAdapter"
+                      "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/idp/adapters/PingOneHTMLFormAdapter"
                     }
                   },
                   "inputUserIdMapping": {
@@ -1767,7 +1845,7 @@
                         "type": "IDP_ADAPTER",
                         "sourceRef": {
                           "id": "PingID",
-                          "location": "https://localhost:9999/pf-admin-api/v1/idp/adapters/PingID"
+                          "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/idp/adapters/PingID"
                         }
                       },
                       "inputUserIdMapping": {
@@ -1792,7 +1870,7 @@
                           "context": "Success",
                           "authenticationPolicyContractRef": {
                             "id": "ScrVidy2FZJZr3vm",
-                            "location": "https://localhost:9999/pf-admin-api/v1/authenticationPolicyContracts/ScrVidy2FZJZr3vm"
+                            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/authenticationPolicyContracts/ScrVidy2FZJZr3vm"
                           },
                           "attributeMapping": {
                             "attributeSources": [],
