@@ -184,7 +184,7 @@
       "operationType": "SAVE",
       "items": [
         {
-          "licenseAgreementUrl": "https://localhost:9999/pf-admin-api/license-agreement",
+          "licenseAgreementUrl": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/license-agreement",
           "accepted": true
         }
       ]
@@ -207,22 +207,22 @@
         {
           "runtimeServerCertRef": {
             "id": "vtcm75en83g6v1r87ytm7lihi",
-            "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
           },
           "adminConsoleCertRef": {
             "id": "vtcm75en83g6v1r87ytm7lihi",
-            "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
           },
           "activeRuntimeServerCerts": [
             {
               "id": "vtcm75en83g6v1r87ytm7lihi",
-              "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+              "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
             }
           ],
           "activeAdminConsoleCerts": [
             {
               "id": "vtcm75en83g6v1r87ytm7lihi",
-              "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+              "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
             }
           ]
         }
@@ -430,7 +430,7 @@
           "name": "PingOne Simple PCV",
           "pluginDescriptorRef": {
             "id": "org.sourceid.saml20.domain.SimpleUsernamePasswordCredentialValidator",
-            "location": "https://localhost:9999/pf-admin-api/v1/passwordCredentialValidators/descriptors/org.sourceid.saml20.domain.SimpleUsernamePasswordCredentialValidator"
+            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/passwordCredentialValidators/descriptors/org.sourceid.saml20.domain.SimpleUsernamePasswordCredentialValidator"
           },
           "configuration": {
             "tables": [
@@ -499,7 +499,7 @@
           "name": "PingID",
           "pluginDescriptorRef": {
             "id": "com.pingidentity.adapters.pingid.PingIDAdapter",
-            "location": "https://localhost:9999/pf-admin-api/v1/idp/adapters/descriptors/com.pingidentity.adapters.pingid.PingIDAdapter"
+            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/idp/adapters/descriptors/com.pingidentity.adapters.pingid.PingIDAdapter"
           },
           "configuration": {
             "tables": [],
@@ -874,7 +874,7 @@
           "name": "PingOne HTML Form Adapter",
           "pluginDescriptorRef": {
             "id": "com.pingidentity.adapters.htmlform.idp.HtmlFormIdpAuthnAdapter",
-            "location": "https://localhost:9999/pf-admin-api/v1/idp/adapters/descriptors/com.pingidentity.adapters.htmlform.idp.HtmlFormIdpAuthnAdapter"
+            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/idp/adapters/descriptors/com.pingidentity.adapters.htmlform.idp.HtmlFormIdpAuthnAdapter"
           },
           "configuration": {
             "tables": [
@@ -1280,7 +1280,7 @@
             "signingSettings": {
               "signingKeyPairRef": {
                 "id": "w9xvjdcubhw1y8jrbqsulygc4",
-                "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/signing/w9xvjdcubhw1y8jrbqsulygc4"
+                "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/signing/w9xvjdcubhw1y8jrbqsulygc4"
               },
               "includeCertInSignature": false,
               "includeRawKeyInSignature": false,
@@ -1355,7 +1355,7 @@
                 },
                 "authenticationPolicyContractRef": {
                   "id": "ScrVidy2FZJZr3vm",
-                  "location": "https://localhost:9999/pf-admin-api/v1/authenticationPolicyContracts/ScrVidy2FZJZr3vm"
+                  "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/authenticationPolicyContracts/ScrVidy2FZJZr3vm"
                 },
                 "restrictVirtualEntityIds": false,
                 "restrictedVirtualEntityIds": [],
@@ -1434,7 +1434,7 @@
             "signingSettings": {
               "signingKeyPairRef": {
                 "id": "w9xvjdcubhw1y8jrbqsulygc4",
-                "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/signing/w9xvjdcubhw1y8jrbqsulygc4"
+                "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/signing/w9xvjdcubhw1y8jrbqsulygc4"
               },
               "includeCertInSignature": false,
               "includeRawKeyInSignature": false,
@@ -1509,7 +1509,7 @@
                 },
                 "authenticationPolicyContractRef": {
                   "id": "8Y2LeoI7x3vf12Or",
-                  "location": "https://localhost:9999/pf-admin-api/v1/authenticationPolicyContracts/8Y2LeoI7x3vf12Or"
+                  "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/authenticationPolicyContracts/8Y2LeoI7x3vf12Or"
                 },
                 "restrictVirtualEntityIds": false,
                 "restrictedVirtualEntityIds": [],
@@ -1678,7 +1678,7 @@
                     "type": "IDP_ADAPTER",
                     "sourceRef": {
                       "id": "PingOneHTMLFormAdapter",
-                      "location": "https://localhost:9999/pf-admin-api/v1/idp/adapters/PingOneHTMLFormAdapter"
+                      "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/idp/adapters/PingOneHTMLFormAdapter"
                     }
                   },
                   "inputUserIdMapping": {
@@ -1702,7 +1702,7 @@
                       "context": "Success",
                       "authenticationPolicyContractRef": {
                         "id": "8Y2LeoI7x3vf12Or",
-                        "location": "https://localhost:9999/pf-admin-api/v1/authenticationPolicyContracts/8Y2LeoI7x3vf12Or"
+                        "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/authenticationPolicyContracts/8Y2LeoI7x3vf12Or"
                       },
                       "attributeMapping": {
                         "attributeSources": [],
@@ -1741,7 +1741,7 @@
                     "type": "IDP_ADAPTER",
                     "sourceRef": {
                       "id": "PingOneHTMLFormAdapter",
-                      "location": "https://localhost:9999/pf-admin-api/v1/idp/adapters/PingOneHTMLFormAdapter"
+                      "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/idp/adapters/PingOneHTMLFormAdapter"
                     }
                   },
                   "inputUserIdMapping": {
@@ -1767,7 +1767,7 @@
                         "type": "IDP_ADAPTER",
                         "sourceRef": {
                           "id": "PingID",
-                          "location": "https://localhost:9999/pf-admin-api/v1/idp/adapters/PingID"
+                          "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/idp/adapters/PingID"
                         }
                       },
                       "inputUserIdMapping": {
@@ -1792,7 +1792,7 @@
                           "context": "Success",
                           "authenticationPolicyContractRef": {
                             "id": "ScrVidy2FZJZr3vm",
-                            "location": "https://localhost:9999/pf-admin-api/v1/authenticationPolicyContracts/ScrVidy2FZJZr3vm"
+                            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/authenticationPolicyContracts/ScrVidy2FZJZr3vm"
                           },
                           "attributeMapping": {
                             "attributeSources": [],
