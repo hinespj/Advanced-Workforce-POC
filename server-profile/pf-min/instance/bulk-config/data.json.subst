@@ -382,7 +382,7 @@
           "name": "PingOne Simple PCV",
           "pluginDescriptorRef": {
             "id": "org.sourceid.saml20.domain.SimpleUsernamePasswordCredentialValidator",
-            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/passwordCredentialValidators/descriptors/org.sourceid.saml20.domain.SimpleUsernamePasswordCredentialValidator"
+            "location": "https://localhost:9999/pf-admin-api/v1/passwordCredentialValidators/descriptors/org.sourceid.saml20.domain.SimpleUsernamePasswordCredentialValidator"
           },
           "configuration": {
             "tables": [
