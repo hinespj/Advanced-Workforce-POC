@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "pfVersion": "10.2.0.13"
+    "pfVersion": "10.1.2.0"
   },
   "operations": [
     {
@@ -136,7 +136,7 @@
       "operationType": "SAVE",
       "items": [
         {
-          "licenseAgreementUrl": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/license-agreement",
+          "licenseAgreementUrl": "https://localhost:9999/pf-admin-api/license-agreement",
           "accepted": true
         }
       ]
@@ -147,8 +147,8 @@
       "items": [
         {
           "id": "vtcm75en83g6v1r87ytm7lihi",
-          "fileData": "MIIRBwIBAzCCEMAGCSqGSIb3DQEHAaCCELEEghCtMIIQqTCCCe0GCSqGSIb3DQEHAaCCCd4EggnaMIIJ1jCCCdIGCyqGSIb3DQEMCgECoIIJgzCCCX8wKQYKKoZIhvcNAQwBAzAbBBS_2uIDTIj4VyYp7BqotMbETYN9GAIDAMNQBIIJUF7tbP2F6xZDjk5fjHGFqDaIflUwFS1q88YN1Qhz9g_lU27unfHExyxBt6dWAaEbbZ4rZg-WKfqx2ihzdC2-L4AIpLic7AI_iL9bNyzGzAZ8dqXz_iMLHi1IOnWRdU_zpD-M6pbze-uu_kQe1uuG5blAvV-e1-V5X6kghTFcibQYTJgTSGy1-JlCAGM8dsgSkrlnUoHrLXslTlLQEcGvd0tEMykQsnAWWO75hPfkIFylcXTrOH5uG-9QaYPSxPFk2WGsKZiDvtMReqwTrotL5QfnPF6Zo68i6gE0fXPIVjd3gwn28hXNgUvdAcMTTTG3HbDRivKtA0v_RO3kExtsN-acVv6jRzU5ETx9nC5K7MfuA9fgByXb1BeIXwIJ04XAp8kGVFyqGBoY7803IwZyX6ooifubD9-p9O0LwEBYftlCdODEGafAr2ts8pRNBG4pC368EJnSvjkJS2RF6qcEvedIzBzsJ31jXWoSnkzGO0U0f6Dxm_bKEnyZ_bocLNyDTqBzb0KMYdQGssV69PlNwAUp7LWNsl0tRroQT71wWpCRhcyLa6uTuaIB1IwP8BZ6WuIi7hDF9CkPNNPuXDClDHCAVBraGOpo-O689nJZH30kuUjHLBic1A9jWZhb0OHnSfNVF87GYCg5-wL3wy4qhoktKy7pXaieF4KXb9nPJdhOV3-Y5VAKNwr5qezG7IN6wwfJI20YgeF-rY49BG0qNC5uEWXvwh7dzgg-Lxp3wTci0BS0jhUJODCzcVNW9jAd07HYK8qr7YnJXznWH_WXC9zwTj0aaQviNlAcoN54NyZVUTcr20WpsnGM3hPjOdcLjeST_0pwBSrRm6sMVtyrv_U_cH_-bCxiV9Wwo9EZ7kJMavcYJhZ6dM3SjuBKo9CNMoOq7cOB31SfXXz8cIZK6QAbgvaFbhbIgVnutdtS5CjukdOfyZNEL3R-FDRY9R8Y_xrycCcvxycuoVPSIhGhArzVRkbfvwdcPCUjTefOBzN1kAhoeoTpP0yklt4ZtUzLv3gUrLPrxM4yeGgFtxRLxCs7eRDD1qxdeh8vKLIyr_f3bdGs3eCIN1NB4Mf2zYm9D3nGSIYTMDR5Tf5rsWO7CRU4OjCmRKvGXwwjjSopJuNj_TlMmj2AZjLYvxAHvHa9Fx4dP6rkACLHVt1jOUTdRXoAZL484fpW-Gp5iYU6ev9N-f9-QZwYOfyZt6WUZP4HiW4AcRLq3OsQOQP0EDglf_67ISmt5z-9hbhd5Uw64TzRiQHj0nVdifRGNHg5jlsSXjhaESzSyUj3WOnvKrJeP_NxJhgAruhOAkG1tmclF1IYVuuqOcEX4d_J_FMpKIOjYEFr8kNvFa0OC5k3a3qj1sRIrJrReaeBwf199-Nc8aJG8gx1T0mgfl5UQNi0XDd9uqU0wlLClNWygbiF6DHBq99cnyRNDwAcRZ5ILCVET0URIR2BR8TZ35RdYiTMrJ8dPgmZqvNFWrQrvnjnMuAscH5lCZQu1lxJ46CCAZBqDCveyeEGcfO9SZNUV6_cInTHRHb083mLlJheqk1oasS22lOovnuC8pFcpzJTpt6NoRBrJC62uetkJI9kgMvLkutq8QZYmUbD2co35UNiacqmAl7wGZ0yqCVbMhKC0A9gfBRi1Fs9X-GRF0dX8Z7iMc4hpkHDIuiL2XyaRjFij0idNSjAvEZBTeB3fpLYwQiGQEBGcm5vbuljCKsUEbT5Ed_-KhTW0sRIbD7ebTBduhvj6dBRTg93SFmvH66ZpNgxYn8gjYT5449zPmeh-Dup5Fgmh4x1qtFFMpJUKYjeR-AOQJjXR4fNXpdmlJ8ALTu9x9_ObY6alY4qF3Z0-h-mdNT7NqgVA7NKg6J4lNZLsURBf49mmHcuLMqdxivOkDWaPld4EwQzDLpv8LMbdocEZyBmPPal-XJVusa47FLlpma6qxItV7Fh4pYGcvFBC02SK3qC1EETBRS7IS0He-sj_UQZJTs8NHjZX914GFY8dSmLns0P5al5yHcJ74XDmOwExCxuZtLSTe_5IjsaIdViAuY8iD_RKKkjcPeIdH5I4EmhbVtLha2xpMT0oPSa1zXBXPrjN1oAKIjBqQcUfpmF7MZg3YuGIKY18x5XcUiQZVz4zbt3cswIpIjKbgr41J-n3cO7YJHnibSQRUPxN95KmYSGOMFx86VvVYqPqXNBYLrwzmjv7zy2wvcXoWgRj54lO0-i8DtM7yc4OylKq6nxNpqCmpDaB5fOfhN-MlI-OKD1foyKBKhOCMO1j3MOYAI8gc2zSo8dwiGVKqv0nku0AXmWsWYmxoQS1cPPWYUzIdkVNB7XwoZb0ktvU6rLYYdsP_5-fxY44ttMkU6tm8FBdGUcFycMkgwTMco6cS5JH5LuuCrpqU9eDMyBuigspzF5H6od545SQY5Zuv8H5vunr5A-KaUyiVX3PvJuZHQoylGQdlO3bNjbqYn-mdV4cpiJP60atSJC5hGEeIMPfxkOBpdHwLZWuyMP7V1izKs4wA7uZFZZQq8uSNaNxwHxqzTk8Nqoe3cuW7BgUbQncUK9s8tQbrbLGy8Ysp4BhYm0ZhR9q-Tx2Idb-xc15OKhuLrzupbfoqdY8pfoCP9ceeL_xnHhNE8F6p8o-v1xwyFIjliQXrFipnkhAMC4GIUmO5dUA-in6E9BsrpANNEpvIJoJ2leNd53MUFd3ISlfqme7jAc8JD1rtDKhdCtsrfWopGkQ5WczaNrG7ktYYmojpdX8IRLT14Wr45c0MkfVmRSVWd9RHPXfdogH5fHoiIqMphjg-9JAfKIAaE12Fu-LJCv2SjuotXYUyUvR364pRXGUmtbiEpL03H6-bEJ5mZe1OKC2hWdfJUJLxf6kCYenWUmfhA6GnFEWpZdxb9bFOSADbhZR0Bvc9ZPNcQuIw2uts3ZW-FApfuz_T4Q742rGrG_V5s696zUOWY42tWnOp7jOUo4pWsCqzBEMbEgu-jK6pWoZOdSbjigtsztlbFOp0OHTQ1XXBxM_EpSwOpp9Me3_jgCO2lLb9Y92b_-szRHW0y7rVqXSlR1XG2S9z9PF-4RNYw4gTXE9gJNdmlFC-I2z-vXnn8DCAChCMiIH8P7HceY2cXvRk_A9L0WP5wX3IUEb_8Qgvyj6kzZ61UWgSQx7RRZIHvh790MNSCouOSEsuiEOZ69MTwwFwYJKoZIhvcNAQkUMQoeCABwAGkAbgBnMCEGCSqGSIb3DQEJFTEUBBJUaW1lIDE2MDkxODgxMTMzNTgwgga0BgkqhkiG9w0BBwagggalMIIGoQIBADCCBpoGCSqGSIb3DQEHATApBgoqhkiG9w0BDAEGMBsEFNo_8AHh57hlHac23G1-lKs3ajILAgMAw1CAggZg4gAmMpLObIkQ3NvsjlsFR_2sKEGPHtSHl6nvP8kHGTPFCVApLG25U0RdZCEodwWwidtJoKL6LiCgboEtFCkkBRyp8DwVIwAOMSKapzP7joO9jSHrKQpmwat43O12Yx670i2UPV1Akn0KHRjUaJ5CXOYdLItf1icK48jibRstDD44o830setpJmNrlv3sE7lupZY5wUHKt9DcdkNwutQwB_iRevfah9zI4IUmlNAFHkgPkJGECf3sXuZzCIZDn32n72bJjF8OdPs8H1bxbKnK_bEchRbcSULvqdGWO6MnyiMAfwxzRVZ-SxPIqf-YmM-77wuezTqTC51FaNAd_Aw4aTdPWzGu25M6PdCI3hH2x59TjB9FRIpnjWCgviYJELrxSlBxs1D-7zSU7xT0ggBvigM-V1bSaKDGk2WHNtr01FhTvjdAOoHQvklHL23l5VLPLGH2EgUJoGWnS2XgMyYPhI2gFYoiW_SOKcXiN3defzExfOI-Fx0-QZ5oTy0Ofk1-56R4qDkhMucB61V8_kyG28y5rr8sbKOPRJQfI_atCcqm2EKgytKDZDB3FbeXRf_gkUSUdHayK0pPEcnH--LbSjxjmvEOCzLZTScribeLn8loaWlL3fQBTC0_4sFwWsUr9yoHFxgX_7_d-NDBUVKOclHNtRfSPt-FFF2ViAnESR8acobrP_E9ba9FuP2o3OStfIHu51rzngETlbB9r64r8fgXRKDBDPgPZKFV09zFkXxSDx01aOqDDEKqDlFxs9Vlj8yxAvdx6CEQqI7vLM6ebMNtKk8jN0Yrpk2szsxh9VYYc8cVIN_veFqRt3NquYNvSjVfKCu1-fkZRBQOUyIJmicjoQqOSwHiTTiOIyPZfXvD2P8mTm2d3c-un12XpRmFDcy-ecafFvXl1SOStPiuxayje5Jj9G2VIWER0xxoSQdUJOxz2k9phJVjALlVL4JrkTKj8kmA8MgEDZnCxk15D-r6vlVNlNxiloDthvRrLmuUwK6J9_kqKUv5Y8wufmzQ1xsLafd6vy-BU_KEMM65TFb9ViLYPR-b6X-CjUg7fbiUJC6AN4eudb5lWpbDlFFRqzBhaifuxPli9WmjcuYBZjQj2IFmxxOhgm_N1k03bFTI-m5Pnl2bs1yZgO7AT3lB5ONGmwLPqwFKBrnh3efEi_X9DZpcY7h9TyIwUg06dWvWCFia8soTvASqlpH8LwYlrteTUtOIQN8t4EZeFzebNGYt3SVnPEW1AOcY7nDlhQxqtf0dbhEM9pbw6xnJYhHJxYRRRyCRe9pU2TT7cb__yj6T0aNdUY-EAZirAh2EiEPj690fEV6Edasj1AhDDK1ZU-iBj_q4-SWdSaiVkHMYorxWeHmv-5yZvZ_tuMRPMqG7_J5wC9TKjhYl2a9m7XFYRzbTGR-b0JZ0KEH5yTYMOw1vVsQiOIZnva_f5lWSPPFnL7a-HUcL2MLzlRYPWgIlPBCqWaP8hJi-4xxlJw0Pu9ZauNZGgvGmldwl8r_hEkUTwvND7BPVn2zjfgK7ofXt_wykf9mYVlsUK7ouSuKSI-Q5MAa-VKijzOY-bT-F37eYvRVvact7VW63ZgVBYPgy0XGoFNp8FghcYOzwKXVqWRAfsVUX_CbkhgIdCw0W8wM1llGdAteEiETSjXPUphKg4Nif7f8XG3Ket7IufHyV9uoGbO_DW8qoLY2CoAf2mZssgRRYJkR2voyp5daKGOTHckFMrkbh2hHuNn0E0rGlcgJjFoSBBpqyXlon3pGY4rdpHGKRMVNJ7JDxt6fIM4z1Qr3WWlYSUB30PleO1VhxYYXXZNc3lOHZoEIzlC_1qiYmx-sklQ-NX8ZDEBkaH_ZdW5JYh7hH2DtCc4gJFF9zDn6bCfh90JkewISisu9aCOsfT3XDwBoKpkH3MDND5tZHS5ZeMMwN88OdJqy6beFpaZazdwNY1s2yBaDO7dXlF1BVuppHgoZ4ul4U6PldlwMireZcZvb-3POMF5ZcrA0OU6XLMYU-Bq4kTfZ4V0RlhR4ZtYqT-87TRo-DMHSKlBmXFJkD5ovYxdmgB-i_Ha76TmCSHTjQtbSTzBi3jFZA8R5MbGiQMkXzvouJYBaOJ9D9Sg5xyLUy94h4ub-3i8fjOnWY9N7-wXxvnEQgucm2VsPbHmGqrJ1OjCcEIH2geINxMD4wITAJBgUrDgMCGgUABBT3LGlmDMFVxMLMinq3IYeOnAcpGgQUrJ56ZXx2pxnCeDaRArs2s3aL7OoCAwGGoA==",
-          "encryptedPassword": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoieGl5Wlc2aFFWYSIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..unQ38-uFLSw7WZx5YUK_ow.CCZcG1VUSxF1o8XTIsfXPffnKf5ny8dVNWHpT7Czai8.EDPZd67486AZ6x6U0kR4Cw"
+          "fileData": "${PF_SSL_KEYPAIR}",
+          "password": "${PF_SSL_KEYPAIR_PASSWORD}"
         }
       ]
     },
@@ -159,22 +159,22 @@
         {
           "runtimeServerCertRef": {
             "id": "vtcm75en83g6v1r87ytm7lihi",
-            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+            "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
           },
           "adminConsoleCertRef": {
             "id": "vtcm75en83g6v1r87ytm7lihi",
-            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+            "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
           },
           "activeRuntimeServerCerts": [
             {
               "id": "vtcm75en83g6v1r87ytm7lihi",
-              "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+              "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
             }
           ],
           "activeAdminConsoleCerts": [
             {
               "id": "vtcm75en83g6v1r87ytm7lihi",
-              "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+              "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
             }
           ]
         }
@@ -186,29 +186,6 @@
       "items": [
         {
           "staticJwksEnabled": false
-        }
-      ]
-    },
-    {
-      "resourceType": "/dataStores",
-      "operationType": "SAVE",
-      "items": [
-        {
-          "type": "JDBC",
-          "id": "ProvisionerDS",
-          "maskAttributeValues": false,
-          "connectionUrl": "jdbc:hsqldb:${pf.server.data.dir}${/}hypersonic${/}ProvisionerDefaultDB;hsqldb.lock_file=false",
-          "driverClass": "org.hsqldb.jdbcDriver",
-          "userName": "sa",
-          "encryptedPassword": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoieGl5Wlc2aFFWYSIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..Z3n1uxr201r1qvxkWuef6w.5cZbTU-Z8Fy-FLy-t4zgKA.f5uddYkrb3aKjASu6d-Q_A",
-          "allowMultiValueAttributes": false,
-          "name": "ProvisionerDS (sa)",
-          "connectionUrlTags": [
-            {
-              "connectionUrl": "jdbc:hsqldb:${pf.server.data.dir}${/}hypersonic${/}ProvisionerDefaultDB;hsqldb.lock_file=false",
-              "defaultSource": true
-            }
-          ]
         }
       ]
     },
@@ -239,7 +216,7 @@
               "saml20Profile": {
                 "enable": true
               },
-              "enableOutboundProvisioning": true
+              "enableOutboundProvisioning": false
             },
             "spRole": {
               "enable": true,
@@ -257,7 +234,7 @@
             "enableIdpDiscovery": true
           },
           "federationInfo": {
-            "baseUrl": "https://pingfederate-engine-pf-advanced-hines.ping-devops.com",
+            "baseUrl": "${PF_BASE_URL}",
             "saml2EntityId": "evaluation",
             "saml1xIssuerId": "",
             "saml1xSourceId": "",
@@ -270,49 +247,20 @@
       ]
     },
     {
-      "resourceType": "/serverSettings/systemKeys",
-      "operationType": "SAVE",
-      "items": [
-        {
-          "current": {
-            "creationDate": "2020-12-28T20:32:04.485Z",
-            "encryptedKeyData": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoieGl5Wlc2aFFWYSIsInZlcnNpb24iOiIxMC4yLjAuMTMiLCJ6aXAiOiJERUYifQ..J8lyOVHTkGmsS6ULRvLhbQ.ZlT9a5JXilc9-7z1Jr35DB2kKvWZvUrDwnQVvCQ71J5hNYusBAFkdhJQPk4_XbqZ.dnrbh2mh7HXQUpeLBSMxrw"
-          },
-          "pending": {
-            "creationDate": "2020-12-28T20:32:04.485Z",
-            "encryptedKeyData": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoieGl5Wlc2aFFWYSIsInZlcnNpb24iOiIxMC4yLjAuMTMiLCJ6aXAiOiJERUYifQ..mccev38zDsH3JiojoGDdbw.JxU28wd_bQEcs_8s7uSwKMBFJnY9Wm0fHvrB6GoCHjzilZXPNwCHKQwrKFPQfTrY.DRPc7_UPH12D72BSUqIE2g"
-          }
-        }
-      ]
-    },
-    {
-      "resourceType": "/serverSettings/outboundProvisioning",
-      "operationType": "SAVE",
-      "items": [
-        {
-          "dataStoreRef": {
-            "id": "ProvisionerDS",
-            "location": "https://pingfederate-admin-pf-advanced-hines.ping-devops.com:443/pf-admin-api/v1/dataStores/ProvisionerDS"
-          },
-          "synchronizationFrequency": 60
-        }
-      ]
-    },
-    {
       "resourceType": "/administrativeAccounts",
       "operationType": "SAVE",
       "items": [
         {
           "username": "Administrator",
-          "encryptedPassword": "OBF:JWE:eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoieGl5Wlc2aFFWYSIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..dtfn1bIpzJUdwgNQt-U7ZQ._6pGYpX6HF1j3eMPbHrSpvkUKwfUYKhsQBDAP7MI9dB-TCv1elI9og97E_dEJ476oNvlHVCX4w_bWq3p3fTYDg.902lbQy4oIT4TQc4CHRaIg",
+          "password": "${PING_IDENTITY_PASSWORD}",
           "description": "Initial administrator user.",
           "auditor": false,
           "active": true,
           "roles": [
-            "EXPRESSION_ADMINISTRATOR",
+            "USER_ADMINISTRATOR",
             "CRYPTO_ADMINISTRATOR",
             "ADMINISTRATOR",
-            "USER_ADMINISTRATOR"
+            "EXPRESSION_ADMINISTRATOR"
           ]
         }
       ]
@@ -455,7 +403,6 @@
         {
           "enableSessions": false,
           "persistentSessions": false,
-          "hashUniqueUserKeyAttribute": false,
           "idleTimeoutMins": 60,
           "idleTimeoutDisplayUnit": "MINUTES",
           "maxTimeoutMins": 480,
@@ -509,10 +456,7 @@
           "atmIdForOAuthGrantManagement": "",
           "scopeForOAuthGrantManagement": "",
           "allowedOrigins": [],
-          "trackUserSessionsForLogout": false,
-          "parReferenceTimeout": 60,
-          "parReferenceLength": 24,
-          "parStatus": "ENABLED"
+          "trackUserSessionsForLogout": false
         }
       ]
     },
